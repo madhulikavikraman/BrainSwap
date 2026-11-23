@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.orig
+
+# data and model checkpoints (large; prepared or trained locally / on CARC)
+data/
+*.pt
+.hf_cache/
+pylib/
