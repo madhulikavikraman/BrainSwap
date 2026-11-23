@@ -1,0 +1,85 @@
+task 7: dataset=20ng seed=27 per_class=25
+[baseline] n=25/class, seed=27, params=8,317,460, device=cpu
+  step    50 | loss 0.3585 | val_acc 0.2573
+  step   100 | loss 0.1415 | val_acc 0.3001
+  step   150 | loss 0.0588 | val_acc 0.2956
+  step   200 | loss 0.2219 | val_acc 0.2947
+  step   250 | loss 0.0874 | val_acc 0.3063
+  step   300 | loss 0.1383 | val_acc 0.2974
+  step   350 | loss 0.2101 | val_acc 0.2894
+  step   400 | loss 0.1628 | val_acc 0.2956
+  step   450 | loss 0.1349 | val_acc 0.2930
+  step   500 | loss 0.0021 | val_acc 0.2930
+  step   550 | loss 0.0917 | val_acc 0.2903
+  step   600 | loss 0.0976 | val_acc 0.2850
+  step   650 | loss 0.0931 | val_acc 0.2867
+  step   700 | loss 0.1329 | val_acc 0.2885
+  step   750 | loss 0.1357 | val_acc 0.2992
+  Early stop at step 750 (patience 10)
+  Done. best_val_acc=0.3063, run_dir=results/lowdata-20ng/lowdata-baseline-n25-seed27-13232516
+[hpool] n=25/class, seed=27, params=8,581,400, device=cpu
+  step    50 | loss 0.2095 | val_acc 0.2191
+  step   100 | loss 0.1434 | val_acc 0.2538
+  step   150 | loss 0.0565 | val_acc 0.2573
+  step   200 | loss 0.2405 | val_acc 0.2600
+  step   250 | loss 0.0806 | val_acc 0.2618
+  step   300 | loss 0.1391 | val_acc 0.2538
+  step   350 | loss 0.2068 | val_acc 0.2511
+  step   400 | loss 0.1639 | val_acc 0.2520
+  step   450 | loss 0.1303 | val_acc 0.2511
+  step   500 | loss 0.0006 | val_acc 0.2671
+  step   550 | loss 0.0846 | val_acc 0.2618
+  step   600 | loss 0.0973 | val_acc 0.2547
+  step   650 | loss 0.0948 | val_acc 0.2582
+  step   700 | loss 0.1390 | val_acc 0.2618
+  step   750 | loss 0.1356 | val_acc 0.2582
+  step   800 | loss 0.0643 | val_acc 0.2600
+  step   850 | loss 0.0881 | val_acc 0.2600
+  step   900 | loss 0.1188 | val_acc 0.2556
+  step   950 | loss 0.0528 | val_acc 0.2547
+  step  1000 | loss 0.0634 | val_acc 0.2600
+  Early stop at step 1000 (patience 10)
+  Done. best_val_acc=0.2671, run_dir=results/lowdata-20ng/lowdata-hpool-n25-seed27-13232516
+[hmem] n=25/class, seed=27, params=8,521,496, device=cpu
+  step    50 | loss 0.3394 | val_acc 0.2440
+  step   100 | loss 0.1390 | val_acc 0.2903
+  step   150 | loss 0.0611 | val_acc 0.2930
+  step   200 | loss 0.2235 | val_acc 0.2903
+  step   250 | loss 0.0910 | val_acc 0.2956
+  step   300 | loss 0.1406 | val_acc 0.2930
+  step   350 | loss 0.2072 | val_acc 0.2885
+  step   400 | loss 0.1612 | val_acc 0.2850
+  step   450 | loss 0.1316 | val_acc 0.2876
+  step   500 | loss 0.0019 | val_acc 0.2850
+  step   550 | loss 0.0889 | val_acc 0.2894
+  step   600 | loss 0.0940 | val_acc 0.2814
+  step   650 | loss 0.0960 | val_acc 0.2796
+  step   700 | loss 0.1324 | val_acc 0.2858
+  step   750 | loss 0.1336 | val_acc 0.2850
+  Early stop at step 750 (patience 10)
+  Done. best_val_acc=0.2956, run_dir=results/lowdata-20ng/lowdata-hmem-n25-seed27-13232516
+[hpool+hmem] n=25/class, seed=27, params=8,785,436, device=cpu
+  step    50 | loss 0.4758 | val_acc 0.2378
+  step   100 | loss 0.1518 | val_acc 0.2778
+  step   150 | loss 0.0609 | val_acc 0.2832
+  step   200 | loss 0.2178 | val_acc 0.2823
+  step   250 | loss 0.0939 | val_acc 0.2867
+  step   300 | loss 0.1407 | val_acc 0.2805
+  step   350 | loss 0.2111 | val_acc 0.2850
+  step   400 | loss 0.1603 | val_acc 0.2823
+  step   450 | loss 0.1321 | val_acc 0.2841
+  step   500 | loss 0.0021 | val_acc 0.2823
+  step   550 | loss 0.0892 | val_acc 0.2858
+  step   600 | loss 0.0924 | val_acc 0.2921
+  step   650 | loss 0.0949 | val_acc 0.2921
+  step   700 | loss 0.1319 | val_acc 0.2903
+  step   750 | loss 0.1365 | val_acc 0.2894
+  step   800 | loss 0.0630 | val_acc 0.2903
+  step   850 | loss 0.0931 | val_acc 0.2903
+  step   900 | loss 0.1190 | val_acc 0.2867
+  step   950 | loss 0.0497 | val_acc 0.2921
+  step  1000 | loss 0.0632 | val_acc 0.2921
+  step  1050 | loss 0.0821 | val_acc 0.2921
+  step  1100 | loss 0.2498 | val_acc 0.2876
+  Early stop at step 1100 (patience 10)
+  Done. best_val_acc=0.2921, run_dir=results/lowdata-20ng/lowdata-hpool+hmem-n25-seed27-13232516

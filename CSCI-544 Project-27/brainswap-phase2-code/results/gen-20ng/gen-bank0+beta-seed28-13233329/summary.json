@@ -1,0 +1,6 @@
+{
+  "best_val_ppl": 132.61316416377534,
+  "variant": "bank0+beta",
+  "best_pt_sha256": "33c76635876526dbede2dd9fa799cb1758ba09790dbff1481e425fa45ab2cc99",
+  "last_pt_sha256": "1550ac01042730768a09af0c65c9c473399b24eaf6307301cadb9d65f2518358"
+}

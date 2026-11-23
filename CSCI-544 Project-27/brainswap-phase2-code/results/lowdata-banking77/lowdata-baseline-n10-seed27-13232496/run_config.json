@@ -1,0 +1,16 @@
+{
+  "variant": "baseline",
+  "per_class": 10,
+  "seed": 27,
+  "max_steps": 1500,
+  "eval_every": 50,
+  "batch_size": 64,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "n_params": 3790669,
+  "n_subset": 770,
+  "n_val": 965,
+  "device": "cpu",
+  "job_id": "13232496"
+}

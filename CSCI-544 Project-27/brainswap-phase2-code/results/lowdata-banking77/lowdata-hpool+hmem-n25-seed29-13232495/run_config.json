@@ -1,0 +1,16 @@
+{
+  "variant": "hpool+hmem",
+  "per_class": 25,
+  "seed": 29,
+  "max_steps": 1500,
+  "eval_every": 50,
+  "batch_size": 64,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "n_params": 4273237,
+  "n_subset": 1925,
+  "n_val": 965,
+  "device": "cpu",
+  "job_id": "13232495"
+}

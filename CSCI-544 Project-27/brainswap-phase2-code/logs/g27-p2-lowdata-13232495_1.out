@@ -1,0 +1,103 @@
+task 1: dataset=banking77 seed=27 per_class=25
+[baseline] n=25/class, seed=27, params=3,790,669, device=cpu
+  step    50 | loss 2.5731 | val_acc 0.5285
+  step   100 | loss 1.1705 | val_acc 0.7098
+  step   150 | loss 0.4656 | val_acc 0.7513
+  step   200 | loss 0.2166 | val_acc 0.7575
+  step   250 | loss 0.0812 | val_acc 0.7637
+  step   300 | loss 0.0545 | val_acc 0.7637
+  step   350 | loss 0.0302 | val_acc 0.7503
+  step   400 | loss 0.0503 | val_acc 0.7451
+  step   450 | loss 0.0145 | val_acc 0.7544
+  step   500 | loss 0.0078 | val_acc 0.7793
+  step   550 | loss 0.0038 | val_acc 0.7803
+  step   600 | loss 0.0036 | val_acc 0.7731
+  step   650 | loss 0.0028 | val_acc 0.7803
+  step   700 | loss 0.0022 | val_acc 0.7865
+  step   750 | loss 0.0022 | val_acc 0.7865
+  step   800 | loss 0.0018 | val_acc 0.7917
+  step   850 | loss 0.0016 | val_acc 0.7907
+  step   900 | loss 0.0015 | val_acc 0.7907
+  step   950 | loss 0.0013 | val_acc 0.7907
+  step  1000 | loss 0.0012 | val_acc 0.7917
+  step  1050 | loss 0.0011 | val_acc 0.7896
+  step  1100 | loss 0.0011 | val_acc 0.7886
+  step  1150 | loss 0.0009 | val_acc 0.7876
+  step  1200 | loss 0.0009 | val_acc 0.7896
+  step  1250 | loss 0.0008 | val_acc 0.7917
+  step  1300 | loss 0.0009 | val_acc 0.7896
+  Early stop at step 1300 (patience 10)
+  Done. best_val_acc=0.7917, run_dir=results/lowdata-banking77/lowdata-baseline-n25-seed27-13232497
+[hpool] n=25/class, seed=27, params=4,054,609, device=cpu
+  step    50 | loss 2.2583 | val_acc 0.4798
+  step   100 | loss 0.6552 | val_acc 0.6591
+  step   150 | loss 0.3152 | val_acc 0.7140
+  step   200 | loss 0.1974 | val_acc 0.7192
+  step   250 | loss 0.0514 | val_acc 0.7140
+  step   300 | loss 0.1916 | val_acc 0.7171
+  step   350 | loss 0.0263 | val_acc 0.7275
+  step   400 | loss 0.0278 | val_acc 0.7316
+  step   450 | loss 0.0126 | val_acc 0.7264
+  step   500 | loss 0.0075 | val_acc 0.7358
+  step   550 | loss 0.0064 | val_acc 0.7275
+  step   600 | loss 0.0041 | val_acc 0.7264
+  step   650 | loss 0.0102 | val_acc 0.7192
+  step   700 | loss 0.0097 | val_acc 0.7264
+  step   750 | loss 0.0258 | val_acc 0.7171
+  step   800 | loss 0.0070 | val_acc 0.7026
+  step   850 | loss 0.0485 | val_acc 0.7264
+  step   900 | loss 0.0054 | val_acc 0.7212
+  step   950 | loss 0.0615 | val_acc 0.7285
+  step  1000 | loss 0.0063 | val_acc 0.7347
+  Early stop at step 1000 (patience 10)
+  Done. best_val_acc=0.7358, run_dir=results/lowdata-banking77/lowdata-hpool-n25-seed27-13232497
+[hmem] n=25/class, seed=27, params=4,009,297, device=cpu
+  step    50 | loss 2.5881 | val_acc 0.4798
+  step   100 | loss 1.0747 | val_acc 0.7088
+  step   150 | loss 0.4536 | val_acc 0.7554
+  step   200 | loss 0.1905 | val_acc 0.7606
+  step   250 | loss 0.0973 | val_acc 0.7575
+  step   300 | loss 0.0356 | val_acc 0.7762
+  step   350 | loss 0.0188 | val_acc 0.7689
+  step   400 | loss 0.0116 | val_acc 0.7699
+  step   450 | loss 0.0129 | val_acc 0.7668
+  step   500 | loss 0.0059 | val_acc 0.7793
+  step   550 | loss 0.0053 | val_acc 0.7865
+  step   600 | loss 0.0033 | val_acc 0.7855
+  step   650 | loss 0.0037 | val_acc 0.7803
+  step   700 | loss 0.0144 | val_acc 0.7430
+  step   750 | loss 0.1025 | val_acc 0.7337
+  step   800 | loss 0.0262 | val_acc 0.7430
+  step   850 | loss 0.0076 | val_acc 0.7223
+  step   900 | loss 0.0060 | val_acc 0.7472
+  step   950 | loss 0.0063 | val_acc 0.7399
+  step  1000 | loss 0.0216 | val_acc 0.7347
+  step  1050 | loss 0.0036 | val_acc 0.7430
+  Early stop at step 1050 (patience 10)
+  Done. best_val_acc=0.7865, run_dir=results/lowdata-banking77/lowdata-hmem-n25-seed27-13232497
+[hpool+hmem] n=25/class, seed=27, params=4,273,237, device=cpu
+  step    50 | loss 2.8662 | val_acc 0.4301
+  step   100 | loss 1.4536 | val_acc 0.6632
+  step   150 | loss 0.6301 | val_acc 0.7420
+  step   200 | loss 0.2784 | val_acc 0.7492
+  step   250 | loss 0.1011 | val_acc 0.7451
+  step   300 | loss 0.0630 | val_acc 0.7503
+  step   350 | loss 0.0362 | val_acc 0.7617
+  step   400 | loss 0.0235 | val_acc 0.7503
+  step   450 | loss 0.0160 | val_acc 0.7658
+  step   500 | loss 0.0130 | val_acc 0.7596
+  step   550 | loss 0.0097 | val_acc 0.7606
+  step   600 | loss 0.0069 | val_acc 0.7637
+  step   650 | loss 0.0090 | val_acc 0.7741
+  step   700 | loss 0.0071 | val_acc 0.7596
+  step   750 | loss 0.0067 | val_acc 0.7523
+  step   800 | loss 0.0138 | val_acc 0.7409
+  step   850 | loss 0.0144 | val_acc 0.7275
+  step   900 | loss 0.0106 | val_acc 0.7358
+  step   950 | loss 0.0045 | val_acc 0.7389
+  step  1000 | loss 0.0173 | val_acc 0.7368
+  step  1050 | loss 0.2250 | val_acc 0.7171
+  step  1100 | loss 0.0083 | val_acc 0.7285
+  step  1150 | loss 0.0046 | val_acc 0.7275
+  Early stop at step 1150 (patience 10)
+  Done. best_val_acc=0.7741, run_dir=results/lowdata-banking77/lowdata-hpool+hmem-n25-seed27-13232497

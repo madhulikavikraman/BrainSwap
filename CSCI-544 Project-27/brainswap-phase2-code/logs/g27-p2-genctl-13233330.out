@@ -1,0 +1,23 @@
+[gen-bank0+beta] seed=29, params=13,452,336, device=cuda
+Epoch   1 | loss 6.6909 | val_ppl 334.51 | val_nu_ppl 360.15 | 16.7s
+  → new best val ppl: 334.51
+Epoch   2 | loss 5.6247 | val_ppl 229.90 | val_nu_ppl 244.68 | 15.7s
+  → new best val ppl: 229.90
+Epoch   3 | loss 5.3040 | val_ppl 187.77 | val_nu_ppl 198.66 | 15.7s
+  → new best val ppl: 187.77
+Epoch   4 | loss 5.0774 | val_ppl 165.45 | val_nu_ppl 175.34 | 15.7s
+  → new best val ppl: 165.45
+Epoch   5 | loss 4.8945 | val_ppl 151.70 | val_nu_ppl 160.26 | 15.7s
+  → new best val ppl: 151.70
+Epoch   6 | loss 4.7328 | val_ppl 143.22 | val_nu_ppl 150.84 | 15.8s
+  → new best val ppl: 143.22
+Epoch   7 | loss 4.5823 | val_ppl 137.27 | val_nu_ppl 145.00 | 15.8s
+  → new best val ppl: 137.27
+Epoch   8 | loss 4.4449 | val_ppl 134.64 | val_nu_ppl 141.62 | 15.8s
+  → new best val ppl: 134.64
+Epoch   9 | loss 4.3147 | val_ppl 132.58 | val_nu_ppl 139.25 | 15.7s
+  → new best val ppl: 132.58
+Epoch  10 | loss 4.1883 | val_ppl 132.62 | val_nu_ppl 139.64 | 15.7s
+Epoch  11 | loss 4.0638 | val_ppl 134.14 | val_nu_ppl 140.01 | 15.8s
+  Early stop (patience 2)
+Done. best_val_ppl=132.58, run_dir=results/gen-20ng/gen-bank0+beta-seed29-13233330

@@ -1,0 +1,25 @@
+task 5: bank_size=64 seed=29
+Tesla P100-PCIE-16GB
+[gen-bank64] seed=29, params=13,583,392, device=cuda
+Epoch   1 | loss 6.6373 | val_ppl 319.45 | val_nu_ppl 342.68 | 17.6s
+  → new best val ppl: 319.45
+Epoch   2 | loss 5.6024 | val_ppl 229.37 | val_nu_ppl 244.37 | 16.3s
+  → new best val ppl: 229.37
+Epoch   3 | loss 5.3116 | val_ppl 192.89 | val_nu_ppl 204.32 | 16.3s
+  → new best val ppl: 192.89
+Epoch   4 | loss 5.1002 | val_ppl 170.98 | val_nu_ppl 181.79 | 16.3s
+  → new best val ppl: 170.98
+Epoch   5 | loss 4.9240 | val_ppl 158.36 | val_nu_ppl 168.17 | 16.3s
+  → new best val ppl: 158.36
+Epoch   6 | loss 4.7673 | val_ppl 150.40 | val_nu_ppl 159.17 | 16.3s
+  → new best val ppl: 150.40
+Epoch   7 | loss 4.6193 | val_ppl 145.27 | val_nu_ppl 153.89 | 16.3s
+  → new best val ppl: 145.27
+Epoch   8 | loss 4.4836 | val_ppl 142.75 | val_nu_ppl 150.16 | 16.3s
+  → new best val ppl: 142.75
+Epoch   9 | loss 4.3532 | val_ppl 142.47 | val_nu_ppl 149.50 | 16.3s
+  → new best val ppl: 142.47
+Epoch  10 | loss 4.2296 | val_ppl 143.26 | val_nu_ppl 151.34 | 16.3s
+Epoch  11 | loss 4.1110 | val_ppl 144.82 | val_nu_ppl 151.84 | 16.3s
+  Early stop (patience 2)
+Done. best_val_ppl=142.47, run_dir=results/gen-20ng/gen-bank64-seed29-13232514
