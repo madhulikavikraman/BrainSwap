@@ -1,6 +1,0 @@
-{
-  "best_val_acc": 0.26714158504007124,
-  "steps_trained": 1000,
-  "best_pt_sha256": "af0513caedb7db815e9eb9a730df7e4f96b9a8eb40ecd220b98801c5ac6517b2",
-  "last_pt_sha256": "be8c2343616af744719e138c4724f57d048e872063d21f1602128f77858b197a"
-}

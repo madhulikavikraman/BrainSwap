@@ -14,7 +14,7 @@ The strongest objection is that ordinary retrieval, caching, and replay may alre
 
 ## How to use the review
 
-This folder contains the research findings. `findings.md` is the synthesis and reading ledger; the four topic reviews below contain the supporting analysis. [Learnings](learnings.md) captures the main scientific and review-method lessons. The optional [source cache](sources/cache-notes.md) keeps downloaded PDFs and extracted text out of Git. Public source links in the notes work without those local files.
+This folder contains the research findings. `findings.md` is the synthesis and reading ledger; the four topic reviews below contain the supporting analysis. [Learnings](learnings.md) captures the main scientific and review-method lessons. [Next steps](next-steps.md) turns the findings into the project's current plans, and [ideas](ideas.md) lists unscheduled directions. The optional [source cache](sources/cache-notes.md) keeps downloaded PDFs and extracted text out of Git. Public source links in the notes work without those local files.
 
 - [Memory and continual learning](memory-review.md): associative retrieval, online memory, complementary learning systems, and replay.
 - [Spiking and efficiency](spiking-review.md): temporal coding, surrogate-gradient learning, scale, and hardware claims.
@@ -47,9 +47,9 @@ Sonnet handled associative memory and its completion pass; Gemini Flash handled 
 
 ## What BrainSwap currently establishes
 
-The [project README](../README.md) reports validation experiments on small Transformers, low-label text classification, and short-context language modeling. Hopfield memory mostly ties the classification baseline, pooling is worse, and the learned-bank decoder is worse under the reported configurations. These observations constrain claims about those implementations and budgets; they do not establish that brain-inspired methods generally fail or that they improve large pretrained language models.
+The [midterm results](../docs/midterm-results.md) report validation experiments on small Transformers, low-label text classification, and short-context language modeling. Hopfield memory mostly ties the classification baseline, pooling is worse, and the learned-bank decoder is worse under the reported configurations. These observations constrain claims about those implementations and budgets; they do not establish that brain-inspired methods generally fail or that they improve large pretrained language models.
 
-The current [Hopfield retrieval implementation](../brainswap_phase2_handoff/src/hopfield_layers.py) makes the distinction concrete:
+The Phase 2 handoff [Hopfield retrieval implementation](https://github.com/madhulikavikraman/BrainSwap/blob/1e5f89b/brainswap_phase2_handoff/src/hopfield_layers.py) makes the distinction concrete:
 
 - A single retrieval step without a bank uses the same scaled-softmax attention form as ordinary multi-head attention. The handoff includes equivalence checks with matched weights.
 - The learned key/value bank is updated by ordinary training and is fixed at inference. It is not a writable episodic store.

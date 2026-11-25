@@ -8,3 +8,6 @@ data/
 *.pt
 .hf_cache/
 pylib/
+
+# personal CARC paths
+scripts/env.sh

@@ -1,6 +1,0 @@
-{
-  "best_val_ppl": 126.14772124524427,
-  "variant": "attn",
-  "best_pt_sha256": "982fd7166f8883755f232934e9a3bc487a5b73954ef307e6c76ff35a607859d0",
-  "last_pt_sha256": "1088394cff39884d186387dd83eba9f82d5279cf95c75db9109fe944f6f966ea"
-}

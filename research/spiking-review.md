@@ -16,7 +16,7 @@ Downloaded PDFs are an optional, Git-ignored [local cache](sources/cache-notes.m
 
 ## Relation to BrainSwap
 
-The [project README](../README.md) reports AG News pilot validation accuracy of 88.99% for the analog model and 89.05% for the spiking model, with generation perplexity 152.36 versus 167.96. Those observations do not identify their cause. The spiking implementation is absent from this checkout, so its exact neuron equations, coding scheme, masking, and training parity could not be audited here. No assumption that it duplicates SpikeGPT or the spiking CNN is justified.
+The [midterm results](../docs/midterm-results.md) report AG News pilot validation accuracy of 88.99% for the analog model and 89.05% for the spiking model, with generation perplexity 152.36 versus 167.96. Those observations do not identify their cause. The spiking implementation is absent from the repository, so its exact neuron equations, coding scheme, masking, and training parity could not be audited here. No assumption that it duplicates SpikeGPT or the spiking CNN is justified.
 
 The important distinction is between changing the recurrent backbone, changing the activation code, converting a pretrained network, and measuring a hardware implementation. Each anchor addresses a different combination.
 
